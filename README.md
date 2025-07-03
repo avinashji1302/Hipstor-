@@ -15,7 +15,7 @@ A simple and responsive Flutter application that displays a paginated list of em
 2. **Insatll The Dependencies:**
    ```bash
    flutter pub get
-3. **Approach:**
+## Approach:
    
 Pagination
 The app fetches employee data from:
