@@ -26,19 +26,23 @@ https://fake-json-api.mock.beeceptor.com/users?_page=1&_limit=10
 => When the user scrolls near the bottom, the next page is automatically fetched.
 
 ### State Management
-The app uses GetX (get package) for:
+=> The app uses GetX (get package) for:
 
-Controller-based logic
+=> Controller-based logic
 
-Reactive state updates using Rx variables
+=> Reactive state updates using Rx variables
 
-Navigation between pages
 
-Local Storage
+### Local Storage
 The last opened employee's data is stored using shared_preferences as a JSON string.
 
-When the app launches, the last opened employee is displayed at the top of the list (without duplication).
+When the app launches, the last opened employee is displayed at the top of the list.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Challanges
+
+1. Pagination Not Triggering
+Issue: Scroll listener didn’t call API as expected.
+
+Fix: Adjusted threshold in scroll listener : scrollController.position.pixels >= scrollController.position.maxScrollExtent - 200
+
+
