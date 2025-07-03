@@ -10,7 +10,7 @@ A simple and responsive Flutter application that displays a paginated list of em
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your_username/Hipstor-.git
-   cd employee_directory_app
+   cd Hipstor-
 
 2. **Insatll The Dependencies:**
    ```bash
