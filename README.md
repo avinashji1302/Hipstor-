@@ -1,4 +1,4 @@
-# bloc
+# Hipstor Assignment
 
 A new Flutter project.
 
