@@ -1,12 +1,20 @@
 # Hipstor Assignment
 
-A new Flutter project.
+A simple and responsive Flutter application that displays a paginated list of employees fetched from a gievn API. Users can view employee details and the last opened employee is saved and displayed at the top of the list using shared Preference.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🔧 How to Run the App
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/employee_directory_app.git
+   cd employee_directory_app
+
+2. **Insatll The Dependencies:**
+   ```bash
+   flutter pub get
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
