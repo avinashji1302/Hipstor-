@@ -17,15 +17,15 @@ A simple and responsive Flutter application that displays a paginated list of em
    flutter pub get
 ## Approach:
    
-Pagination
-The app fetches employee data from:
+### Pagination
+=> The app fetches employee data from:
 https://fake-json-api.mock.beeceptor.com/users?_page=1&_limit=10
 
-It implements infinite scrolling pagination using a ScrollController.
+=> It implements infinite scrolling pagination using a ScrollController.
 
-When the user scrolls near the bottom, the next page is automatically fetched.
+=> When the user scrolls near the bottom, the next page is automatically fetched.
 
-State Management
+### State Management
 The app uses GetX (get package) for:
 
 Controller-based logic
